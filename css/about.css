@@ -1,0 +1,25 @@
+.intern_about {
+	background: url("../img/bg-about.png") no-repeat center;
+	background-size: cover;
+}
+
+.mission_about {
+	padding-top: 60px;
+}
+
+.mission_about p {
+	font-size: 18px;
+	line-height: 25px;
+	margin-bottom: 1em;
+	padding-right: 60px
+}
+
+.mission_about ul li {
+	font-family: Georgia, "Times New Roman", serif;
+	font-size: 18px;
+	line-height: 30px;
+}
+
+.photo {
+	padding-top: 20px;
+}

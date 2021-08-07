@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+	<head>
+		<meta charset="utf-8">
+		<title>Blackwell Academy - Contact</title>
+		<meta name="description" content="FanMade website of Blackwell Academy from Life is Strange. Study purposes only!">
+
+		<meta property="og:type" content="website"/>
+		<meta property="og:title" content="Blackwell Academy - Contact the developer"/>
+		<meta property="og:description" content="FanMade website of Blackwell Academy from Life is Strange. Study purposes only!"/>
+		<meta property="og:url" content="http://blackwellacademy.com"/>
+		<meta property="og:image" content="http://blackwellacademy.com/img/og-image.png"/>
+
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+
+		<link rel="stylesheet" href="css/normalize.css">
+		<link rel="stylesheet" href="css/reset.css">
+		<link rel="stylesheet" href="css/grid.css">
+		<link rel="stylesheet" href="css/style.css">
+		<link rel="stylesheet" href="css/contact.css">
+		<link rel="stylesheet" href="css/responsive.css">
+		<script>document.documentElement.classList.add("js");</script>
+	</head>
+	<body>
+
+		<header class="header">
+			<div class="container">
+				<a href="index.html" class="grid-4">
+					<img src="img/logo_s.png" alt="Bikcraft">
+				</a>
+				<nav class="grid-12 header_menu">
+					<ul>
+						<li><a href="about.html">About</a></li>
+						<li><a href="courses.html">Courses</a></li>
+						<li><a href="gallery.html">Gallery</a></li>
+						<li><a href="contact.html" class="menu_ativo">Contact</a></li>
+					</ul>
+				</nav>
+			</div>
+		</header>
+
+		<section class="intern-intro intern_contact">
+			<div class="container">
+				<h1 data-anime="400" class="fadeInDown">Contact</h1>
+				<p data-anime="800" class="fadeInDown">Contact the website developer</p>
+			</div>
+		</section>
+
+		<section class="contact container fadeInDown" data-anime="1200">
+			<form id="form_contact" method="POST" action="./sendmail.php" class="contact_form grid-8 formphp">
+				<label for="name">Name</label>
+				<input type="text" id="name" name="name" required>
+				<label for="email">E-mail</label>
+				<input type="email" id="email" name="email" required>
+				<label for="phone">Phone</label>
+				<input type="text" id="phone" name="phone">
+
+				<label class="bot-ds">If you're not a bot, leave it blank.</label>
+				<input type="text" class="bot-ds" name="leaveblank">
+				<label class="bot-ds">If you're not a bot, don't edit this.</label>
+				<input type="text" class="bot-ds" name="dontchange" value="http://">
+
+				<label for="message">Message</label>
+				<textarea id="message" name="message" required></textarea>
+				<button id="sendmail" name="sendmail" type="submit" class="btn btn-black">Send</button>
+			</form>
+
+			<div class="contact_info grid-8">
+				<h3>Important information</h3>
+				<span><a href="https://api.whatsapp.com/send?phone=5511970462720&text=Hi%2C%20I%20saw%20your%20portfolio%20and%20I%20am%20very%20interested%20in%20your%20work.%20Can%20we%20talk%20about%20business%3F">+55 11 97046-2720</a></span>
+				<span><a href="mailto:batheus.dev@gmail.com">batheus.dev@gmail.com</a></span>
+				<span>Osasco - SP - Brazil</span>
+				<span>FanMade website with study purposes only.</span>
+				<h3>Redes Sociais</h3>
+				<ul>
+					<li><a href="https://github.com/batheus" target="_blank"><img src="img/social/github.svg" class="svg-black"></a></li>
+					<li><a href="mailto:batheus.dev@gmail.com" target="_blank"><img src="img/social/gmail.svg" class="svg-black"></a></li>
+					<li><a href="https://www.linkedin.com/in/batheusdev/" target="_blank"><img src="img/social/linkedin.svg" class="svg-black"></a></li>
+				</ul>
+			</div>
+		</section>
+
+		<section class="container contact_map">
+			<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d5685.249828544493!2d-123.27944400000001!3d44.563781!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa6fff1dc01f7b49f!2sUniversidade%20do%20Estado%20do%20Oregon!5e0!3m2!1spt-BR!2sbr!4v1628276574548!5m2!1spt-BR!2sbr" width="380" height="380" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+		</section>
+		
+
+		<section class="pagebreak">
+			<blockquote class="quote container">
+				<p>“Since the 18th century Blackwell Academy has been proud of it's unique status among the scholastic Arts & Science. We're glad you're here to contribute.”</p>
+			</blockquote>
+		</section>
+
+		<footer>
+			<div class="footer">
+				<div class="container">
+
+					<div class="grid-8 footer_history">
+						<h3>About Us</h3>
+						<p>For over 100 years Blackwell Academy has been an academic oasis for art and science, with diverse students from around the world seeking to change the world and their communities.</p>
+					</div>
+
+					<div class="grid-4 footer_contact">
+						<h3>Contact</h3>
+						<ul>
+							<li>- <a style="color: white; text-decoration: none;" href="https://api.whatsapp.com/send?phone=5511970462720&text=Hi%2C%20I%20saw%20your%20portfolio%20and%20I%20am%20very%20interested%20in%20your%20work.%20Can%20we%20talk%20about%20business%3F">+55 11 97046-2720</a></li>
+							<li>- <a style="color: white; text-decoration: none;" href="mailto:batheus.dev@gmail.com">batheus.dev@gmail.com</a></li>
+							<li>- São Paulo - BR</li>
+						</ul>
+					</div>
+
+					<div class="grid-4 footer_social">
+						<h3>Social Media</h3>
+						<ul>
+							<li><a href="https://github.com/batheus" target="_blank"><img src="img/social/github.svg" class="svg-white"></a></li>
+							<li><a href="mailto:batheus.dev@gmail.com" target="_blank"><img src="img/social/gmail.svg" class="svg-white"></a></li>
+							<li><a href="https://www.linkedin.com/in/batheusdev/" target="_blank"><img src="img/social/linkedin.svg" class="svg-white"></a></li>
+						</ul>
+					</div>
+
+				</div>
+			</div>
+
+			<div class="copy">
+				<div class="container">
+					<p class="grid-16"><a style="color:white;" href="https://github.com/batheus">Batheus</a> 2021 - Fan Made website with study purposes only.</p>
+				</div>
+			</div>
+		</footer>
+
+	<!-- JavaScript -->
+	<script src="./js/simple-anime.js"></script>
+	<script src="./js/simple-form.js"></script>
+  <script src="./js/script.js"></script>
+	<!-- JavaScript -->
+
+	</body>
+</html>
